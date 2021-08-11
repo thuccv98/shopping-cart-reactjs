@@ -28,6 +28,7 @@ const Context = ({ children }) => {
 
 export default Context;
 
+// với bất lỳ component nào muốn sử dụng, để lấy được dữ liệu trong context ta sử dung useContext
 export const CartState = () => {
   return useContext(Cart);
 };
