@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Context from './context/Context';
+import ContextProvider from './context/Context';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Context>
+    <ContextProvider>
       <App />
-    </Context>
+    </ContextProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
